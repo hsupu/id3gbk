@@ -1,1 +1,14 @@
-/.venv/
+.vscode/
+.workbuddy/
+
+.venv
+__pycache__/
+*.py[oc]
+uv.lock
+
+.coverage
+
+build/
+dist/
+wheels/
+*.egg-info

@@ -1,13 +1,9 @@
 # 操作历史备忘
 
-## 初始化环境
+## 安装 uv
 
-```ps1
-pyenv install
-python -m venv venv
-. venv/bin/activate
-python -m pip install -U pip wheel setuptools
-pip install -U -r requirements-dev.txt
+```cmd
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 ## pip 国内源
